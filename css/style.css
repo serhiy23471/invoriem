@@ -1,0 +1,77 @@
+@import '/css/reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import '../founts/Gilroy/stylesheet.css';
+/* font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Gilroy', sans-serif; */
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1750px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    background-image: url('../img/header/header-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__top {
+    padding: 44px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav__logo {}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 118px;
+}
+
+.link {
+    font-size: 20px;
+    color: #114455;
+    font-weight: 800;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 24px;
+    border: 1px solid #114455;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #114455;
+    font-weight: 800;
+}
+
+.header__content {
+    margin-top: 126px;
+    max-width: 1060px;
+}
+
+.header__title {
+    max-width: 734px;
+    font-weight: 800;
+    
+    font-size: 80px;
+    line-height: 94px;
+
+    color: #114455;
+}
+
+.header__text {}
+
+.btn {}
